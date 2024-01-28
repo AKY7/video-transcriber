@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Except transcript.sh and video2wav.py
+!transcript.sh
+!video2wav.py
+!.gitignore
