@@ -28,6 +28,7 @@ do
     echo "Running whisper on $audio_file"
 
     # Run the whisper command on the audio file and output to the new directory
+    # Edit this to your config
     whisper "$audio_file" --fp16 False --language English --model tiny > "$output_dir_abs/$audio_name.txt"
 
     echo "Done - took $SECONDS seconds"
